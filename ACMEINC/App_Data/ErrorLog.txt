@@ -1,0 +1,14 @@
+********** 13 May 2019 20:20:36 **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 13 May 2019 22:02:32 **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ACMEINC.Logic.NVPAPICaller.HttpCall(String NvpRequest) in D:\Google Drive\Visual Studio Projects\ACMEINC\ACMEINC\Logic\PayPalFunctions.cs:line 168
+
